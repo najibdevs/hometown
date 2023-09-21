@@ -15,10 +15,48 @@ h1 {
 }
 
 .places {
-  display: flex;
-  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
   padding: 20px;
-  background-color: #d2f8d2;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #d8fdf0;
+}
+
+.places h1 {
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+  width: 100%;
+}
+
+.places .column {
+  flex: 1;
+  max-width: 33.33%;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.places img {
+  max-width: 100%;
+  border-radius: 50%;
+  margin-top: 15px;
+}
+
+.places h2 {
+  font-size: 1.5em;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.places p {
+  font-size: 1em;
+  line-height: 1.4;
+  color: #777;
 }
 
 .column {
