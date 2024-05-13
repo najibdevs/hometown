@@ -1,0 +1,80 @@
+/* global styles */
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+/* hero section */
+.hero {
+    background: url(images/hero.jpeg);
+    background-size: cover;
+    background-position: center;
+    padding: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.title, 
+.description {
+    background: white;
+    padding: 5px 10px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.description {
+    max-width: 400px;
+    font-weight: bold;
+}
+
+/* activities section */
+.activities {
+    background: #f1faee;
+    text-align: center;
+    padding: 20px;
+}
+
+.activities-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.activities-content img {
+    width: 100px;
+    height: 95px;
+    border-radius: 50%;
+}
+
+.activities h3 {
+    margin-top: 0;
+}
+
+.activity {
+    width: 200px;
+}
+
+/* guide section */
+.guide {
+    background: #a7dad9;
+    width: 450px;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 20px auto;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.guide img {
+    width: 200px;
+    border-radius: 5px;
+}
+
+.guide-content {
+    margin-left: 10px;
+}
